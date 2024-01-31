@@ -1,3 +1,9 @@
+import Daily from '@/components/Daily';
+
 export default function Home() {
-  return <main>shalala</main>;
+  return (
+    <main>
+      <Daily />
+    </main>
+  );
 }
